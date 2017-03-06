@@ -51,8 +51,10 @@ public class Point {
     }
 
     //дежат ли точки на одной прямой
-    private static void lineOrNot(Point someOtherPoint1, Point someOtherPoint2) {
+    private boolean lineOrNot(Point point1, Point point2) {
         //d = sqrt ((x1-x2)2 + (y1-y2)2)
-//double distance =
+        if ((x - point1.getX() * (point1.getY() - point2.getY() - (point1.getX() - point2.getY() * (y - point2.getY()))))== 0)
+            return true;
+        else return false;
     }
 }
