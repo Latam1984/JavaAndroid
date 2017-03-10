@@ -25,4 +25,9 @@ public class Shape2D extends Shape {
     public String getName() {
         return name;
     }
+
+    @Override
+    public void show() {
+
+    }
 }

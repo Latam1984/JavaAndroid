@@ -3,7 +3,7 @@ package JA_11_OOP.lesson_09_inheritance;
 /**
  * Created by Aleksey on 06.03.2017.
  */
-public class Shape {
+public abstract class Shape {
     private String color;
 
 
@@ -11,9 +11,7 @@ public class Shape {
         this.color = color;
     }
 
-    public void show(){
-        System.out.println(color);
-    }
+    public abstract void show();
 
     public String getColor() {
         return color;
