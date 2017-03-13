@@ -25,4 +25,12 @@ public class Complex implements Addable<Complex> {
     public Complex minus(Complex other) {
         return new Complex(this.a + other.a, this.b + other.b);
     }
+
+    @Override
+    public String toString() {
+        return "Complex{" +
+                "a=" + a +
+                ", b=" + b +
+                '}';
+    }
 }
