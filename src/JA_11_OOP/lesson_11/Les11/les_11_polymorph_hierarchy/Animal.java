@@ -1,6 +1,6 @@
-package JA_11_OOP.les_11_polymorph_hierarchy;
+package JA_11_OOP.lesson_11.Les11.les_11_polymorph_hierarchy;
 
-public abstract class Animal implements Swim {
+public abstract class Animal {
     private String name;
     private int maxAge;
 

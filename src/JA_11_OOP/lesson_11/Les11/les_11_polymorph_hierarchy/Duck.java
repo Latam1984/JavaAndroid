@@ -1,4 +1,4 @@
-package JA_11_OOP.les_11_polymorph_hierarchy;
+package JA_11_OOP.lesson_11.Les11.les_11_polymorph_hierarchy;
 
 public class Duck extends Bird{
     private boolean isDomestic;
@@ -26,10 +26,5 @@ public class Duck extends Bird{
     @Override
     public String toString() {
         return null;
-    }
-
-    @Override
-    public void swim() {
-        System.out.println("Swim");
     }
 }

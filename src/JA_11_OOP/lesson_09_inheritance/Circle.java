@@ -11,7 +11,7 @@ public class Circle extends Shape2D {
         this.radius = radius;
     }
 
-    public Circle(double radius) {
+    public Circle(String s, double radius) {
         this.radius = radius;
     }
 

@@ -1,4 +1,4 @@
-package JA_11_OOP.les_11_polymorph_hierarchy;
+package JA_11_OOP.lesson_11.Les11.les_11_polymorph_hierarchy;
 
 public class Eagle extends Bird {
     private boolean isPlane;
@@ -29,10 +29,5 @@ public class Eagle extends Bird {
         this.getName()+","+this.getMaxAge()+",wingSize="
        +this.getWingSize()+",isPlane="+this.isPlane;
 
-    }
-
-    @Override
-    public void swim() {
-        System.out.println("Not swim");
     }
 }
