@@ -32,5 +32,9 @@ list.add(444);
 
         list.addAll(Arrays.asList(444,555,666,777,888,999));
         System.out.println(list);
+
+        for (Integer integer : list) {
+            System.out.println(integer);
+        }
     }
 }
